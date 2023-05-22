@@ -1,8 +1,4 @@
-run the following command to perform unit test
-
-```
-python -m unittest -v test_credit_card_validation.py
-```
+## Introduction
 
 You and Fredrick are good friends. Yesterday, Fredrick received credit cards from ABCD Bank. He wants to verify whether his credit card numbers are valid or not. You happen to be great at regex so he is asking for your help!
 
@@ -71,3 +67,11 @@ Explanation
 4123356789123456 : Valid
 51-67-8912-3456 : Invalid, consecutive digits is repeating times.
 5123456789123456 : Invalid, because space ' ' and - are used as separators.
+
+## Execution and unit tests
+
+All the test cases are included in `test_credit_card_validation.py`, run the following command to perform unit test
+
+```
+python -m unittest -v test_credit_card_validation.py
+```
